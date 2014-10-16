@@ -17,7 +17,12 @@ class News_model extends CI_Model
     {
         if($id != FALSE)
         {
-            
+          $query = $this->db->get_where('news', array('id', $id));
+          return $query->row_array();
+        }
+        else
+        {
+            return FALSE;
         }
     }
     
