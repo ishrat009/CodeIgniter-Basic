@@ -1,7 +1,5 @@
-<?php
-    
-    print $title;
-    print $body;
-    
+<h2> <?php print $title; ?> </h2>
+
+<?php print $body;    
 ?>    
 
