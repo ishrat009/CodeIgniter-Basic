@@ -1,0 +1,14 @@
+Follow the steps given below :
+
+CSS folder :
+Add this folder in your codeigniter's root directory
+
+reg_form.php :
+add this file to codeigniter> application> view >
+
+form.php :
+add this file to codeigniter> application> controller >
+
+db_dropdown.php :
+add this file to codeigniter> application> Model >
+
